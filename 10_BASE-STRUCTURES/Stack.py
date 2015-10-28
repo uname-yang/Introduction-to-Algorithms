@@ -18,8 +18,3 @@ class Stack():
 
 	def clear(self):
 		del self.items[:]
-if __name__ == '__main__':
-	s = Stack()
-	for i in xrange(3):
-		s.push(i)
-	print s.stack,s.top

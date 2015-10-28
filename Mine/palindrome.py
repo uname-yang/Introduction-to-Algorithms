@@ -4,7 +4,8 @@ def palchecker(aString):
     chardeque = Deque()
 
     for ch in aString:
-        chardeque.addRear(ch)
+        ##chardeque.addRear(ch)
+        chardeque.addFront(ch)
 
     while chardeque.size() > 1:
         first = chardeque.removeFront()

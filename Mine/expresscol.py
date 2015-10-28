@@ -9,8 +9,8 @@ class RailExpress():
         self.fontExpress = express
         self.railExpress = []
         self.size = len(express)
-        self.stack = Stack(self.size)
-        self.queue = Queue(self.size)
+        self.stack = Stack()
+        self.queue = Queue()
 
         self.level = {'+': 1, '-':  1, '*': 2, '/': 2, '(': 3, ')': 3}
         self.operators = ['+', '-', '*', '/', '(', ')']

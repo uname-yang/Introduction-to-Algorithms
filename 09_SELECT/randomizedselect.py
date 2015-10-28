@@ -38,6 +38,6 @@ if __name__ == "__main__":
 	#data = [-2, -8, -7, -10, -3,-78, -5, -6, -4, -6]
 	data = [-2, 8, -7, 10, 3,78, -5, 6, -4, 6,9,-90]#bug
 	print_data(data,True)
-	d=select(data,1,5,2)
+	d=select(data,1,5,3)
 	print d
 			

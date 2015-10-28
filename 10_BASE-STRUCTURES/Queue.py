@@ -13,8 +13,3 @@ class Queue:
 
     def size(self):
         return len(self.items)
-if __name__ == '__main__':
-	s = Queue()
-	for i in xrange(3):
-		s.enqueue(i)
-	print s.items,s.dequeue,s.items
