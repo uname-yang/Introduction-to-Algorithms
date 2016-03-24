@@ -1,4 +1,7 @@
-class BitArray():
+#BitArray
+#Yu.Yang
+#
+class bitarray():
     def __init__(self,length,defaultValue=False):
         if (length < 0):
             raise Exception("Length param error")
