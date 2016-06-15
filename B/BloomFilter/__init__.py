@@ -1,1 +1,1 @@
-from .bloom import bloomfilter
+from .bloom import BloomFilter
