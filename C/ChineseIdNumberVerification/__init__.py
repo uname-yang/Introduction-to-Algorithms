@@ -1,0 +1,1 @@
+from .IdNumVer import getValidateCode
