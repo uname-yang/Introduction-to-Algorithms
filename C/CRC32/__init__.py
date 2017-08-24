@@ -1,0 +1,1 @@
+from .crc32 import get_crc32_text

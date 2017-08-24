@@ -1,4 +1,4 @@
-#python
+#!python
 #coding=utf-8
 from Stack import Stack
 from Queue import Queue
